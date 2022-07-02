@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.48">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicon-16x16.png"><link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32x32.png"><link rel="manifest" href="/manifest.webmanifest"><meta name="application-name" content="VuePress"><meta name="apple-mobile-web-app-title" content="VuePress"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="apple-touch-icon" href="/images/icons/apple-touch-icon.png"><link rel="mask-icon" href="/images/icons/safari-pinned-tab.svg" color="#3eaf7c"><meta name="msapplication-TileColor" content="#3eaf7c"><meta name="theme-color" content="#3eaf7c"><title>vuepress-theme-star</title><meta name="description" content="为了构建功能完备的个人网站">
+    <link rel="preload" href="/assets/js/runtime~app.fb6fc526.js" as="script"><link rel="preload" href="/assets/css/styles.7e003032.css" as="style"><link rel="preload" href="/assets/js/576.0d20a724.js" as="script"><link rel="preload" href="/assets/js/app.5fed3620.js" as="script"><link rel="prefetch" href="/assets/js/mermaid.45e100c1.js"><link rel="prefetch" href="/assets/js/reveal.ee718fd9.js"><link rel="prefetch" href="/assets/css/283.styles.8b9703f8.css"><link rel="prefetch" href="/assets/js/flowchart.66387a0d.js"><link rel="prefetch" href="/assets/js/photo-swipe.0347835c.js"><link rel="prefetch" href="/assets/js/v-208e7c52.ce1277ab.js"><link rel="prefetch" href="/assets/css/366.styles.c2146e93.css"><link rel="prefetch" href="/assets/js/v-37781588.92bb5e94.js"><link rel="prefetch" href="/assets/js/v-2d0ad528.d5046bd9.js"><link rel="prefetch" href="/assets/js/v-8daa1a0e.aa45aa5f.js"><link rel="prefetch" href="/assets/js/v-69fc9e49.22554753.js"><link rel="prefetch" href="/assets/js/v-7d27b1f8.8a383a64.js"><link rel="prefetch" href="/assets/js/v-6ef4e7aa.dc716981.js"><link rel="prefetch" href="/assets/js/v-bba92d0c.d515c814.js"><link rel="prefetch" href="/assets/js/923.95daaa46.js"><link rel="prefetch" href="/assets/css/535.styles.30082d1a.css"><link rel="prefetch" href="/assets/css/425.styles.91977ed5.css"><link rel="prefetch" href="/assets/js/989.bca20198.js"><link rel="prefetch" href="/assets/js/v-953546a4.85578b08.js"><link rel="prefetch" href="/assets/js/v-5d0bca4c.74426b65.js"><link rel="prefetch" href="/assets/js/v-3706649a.3a9c33b1.js"><link rel="prefetch" href="/assets/css/166.styles.98375879.css"><link rel="prefetch" href="/assets/css/209.styles.87fff98f.css"><link rel="prefetch" href="/assets/css/8.styles.8bdc4192.css"><link rel="prefetch" href="/assets/css/599.styles.8c2c12fd.css"><link rel="prefetch" href="/assets/js/170.5e410117.js"><link rel="prefetch" href="/assets/js/310.279ead30.js"><link rel="prefetch" href="/assets/js/621.0aa8e906.js"><link rel="prefetch" href="/assets/js/796.6bec03d9.js"><link rel="prefetch" href="/assets/js/977.16b70cf9.js"><link rel="prefetch" href="/assets/js/982.b50708c3.js"><link rel="prefetch" href="/assets/js/38.ac223ad8.js"><link rel="prefetch" href="/assets/js/58.48a3dbeb.js">
+    <link rel="stylesheet" href="/assets/css/styles.7e003032.css">
+    <style>
+      body{padding:0;margin:0}
+      .loading-container{width:100%;height:100%;background-color:#fff;position:absolute;z-index:30}
+      .loading-container .loading{width:115px;height:115px;margin:0 auto;top:calc(50% - 115px);position:relative}
+      .configure-border-1{width:115px;height:115px;padding:3px;position:absolute;display:flex;justify-content:center;align-items:center;background:rgba(0,0,0,0.9);animation:configure-clockwise 5s ease-in-out 0s infinite alternate}
+      .configure-border-2{width:115px;height:115px;padding:3px;left:-115px;display:flex;justify-content:center;align-items:center;transform:rotate(45deg);animation:configure-xclockwise 5s ease-in-out 0s infinite alternate}
+      .configure-core{width:100%;height:100%;}
+      @keyframes configure-clockwise{0%{transform:rotate(0)}25%{transform:rotate(90deg)}50%{transform:rotate(180deg)}75%{transform:rotate(270deg)}100%{transform:rotate(360deg)}}
+      @keyframes configure-xclockwise{0%{transform:rotate(45deg)}25%{transform:rotate(-45deg)}50%{transform:rotate(-135deg)}75%{transform:rotate(-225deg)}100%{transform:rotate(-315deg)}}
+      .loading-fade-out{transition:all .8s ease-in-out;opacity:0}
+      .loading-container .tip{font-weight:700;width:100%;text-align:center;position:absolute;top:calc(50% + 57px);color:#000}
+    </style>
+    <script lang="javascript">
+      document.onreadystatechange = function(){
+        if(document.readyState==='interactive'||document.readyState==='complete'){
+          // 加载完成之后关闭Loading
+          setTimeout(function() {
+            let loadingContainer = document.querySelector(".loading-container");
+            let loadingClass = loadingContainer.getAttribute("class");
+            loadingContainer.setAttribute(
+              "class",
+              loadingClass.concat(" loading-fade-out")
+            );
+            loadingContainer.addEventListener("transitionend", function() {
+              loadingContainer.style.display = "none";
+            });
+          }, 500);
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="loading-container">
+      <div class="loading">
+        <div class="configure-border-1">
+          <div class="configure-core" style="background-color:#fff">
+          </div>
+        </div>
+        <div class="configure-border-2">
+          <div class="configure-core">
+            <img src="/images/logo.png" class="loading-header" width="100%"/>
+          </div>
+        </div>
+      </div>
+      <div class="tip">努力加载中 ……</div>
+    </div>
+    <div id="app"><!--[--><div class="theme-container"><!--[--><div class="background"><canvas id="vuepress-canvas-hack" style=""></canvas></div><!--]--><!--[--><main class="document-home documenthome-page"><header><div class="hero"><!----><h1 id="main-title">vuepress-theme-star</h1><p class="description">为了构建功能完备的个人网站</p><!----></div></header><!----><main><div class="theme-default-content theme-star-content"><!--[--><!--]--><div></div><!--[--><!--]--></div></main><footer><!----></footer></main><!--]--><!--[--><div class="foreground"></div><!--]--></div><div class="pswp" tabindex="-1" role="dialog" aria-hidden="true"><div class="pswp__bg"></div><div class="pswp__scroll-wrap"><div class="pswp__container"><div class="pswp__item"></div><div class="pswp__item"></div><div class="pswp__item"></div></div><div class="pswp__ui pswp__ui--hidden"><div class="pswp__top-bar"><div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="关闭"></button><button class="pswp__button pswp__button--share" title="分享"></button><button class="pswp__button pswp__button--fs" title="切换全屏"></button><button class="pswp__button pswp__button--zoom" title="缩放"></button><div class="pswp__preloader"><div class="pswp__preloader__icn"><div class="pswp__preloader__cut"><div class="pswp__preloader__donut"></div></div></div></div></div><div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"><div class="pswp__share-tooltip"></div></div><button class="pswp__button pswp__button--arrow--left" title="上一个 (左箭头)"></button><button class="pswp__button pswp__button--arrow--right" title="下一个 (右箭头)"></button><div class="pswp__caption"><div class="pswp__caption__center"></div></div></div></div></div><canvas id="vuepress-canvas-cursor"></canvas><div class="suspension"><!--[--><!----><!----><!--]--></div><!--]--></div>
+    <script src="/assets/js/runtime~app.fb6fc526.js" defer></script><script src="/assets/js/576.0d20a724.js" defer></script><script src="/assets/js/app.5fed3620.js" defer></script>
+  </body>
+</html>
